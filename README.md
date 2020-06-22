@@ -1,6 +1,8 @@
-# Copycat [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jdjbiojkklnaeoanimopafmnmhldejbg.svg?maxAge=86400)](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg) [![Mozilla Add-on](https://img.shields.io/amo/v/extension-copycat.svg?maxAge=864000)](https://addons.mozilla.org/firefox/addon/extension-copycat/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackGlory/copycat/master/LICENSE)
+# Copycat
 
-[![Copycat](https://github.com/BlackGlory/copycat/blob/master/src/assets/images/icon-128.png?raw=true)](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jdjbiojkklnaeoanimopafmnmhldejbg.svg?maxAge=86400)](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg) [![Mozilla Add-on](https://img.shields.io/amo/v/extension-copycat.svg?maxAge=864000)](https://addons.mozilla.org/firefox/addon/extension-copycat/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackGlory/copycat/master/LICENSE)
+
+![Copycat](https://github.com/BlackGlory/copycat/blob/master/src/assets/images/icon-128.png?raw=true)
 
 Copy content from web powerful than ever before.
 
@@ -10,7 +12,7 @@ Copy content from web powerful than ever before.
 - [x] [Firefox](https://addons.mozilla.org/firefox/addon/extension-copycat/)
 - [x] Opera: Code review too slow, never publish again, please manually install.
 - [x] [Vivaldi](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg)
-- [ ] Edge: Microsoft Edge is not compatible with [mozilla/webextension-polyfill](https://github.com/mozilla/webextension-polyfill) because of [Issue #3](https://github.com/mozilla/webextension-polyfill/issues/3), so I had to give up porting.
+- [x] [Edge](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg)
 
 ## Features
 
@@ -34,19 +36,19 @@ Copy content from web powerful than ever before.
   - [x] Markdown
   - [x] BBCode
   - [x] HTML
-  - [x] HTML(only \<a\> tag)
+  - [x] HTML(only `<a>` tag)
   - [x] HTML(no attributes)
 - [x] Copy image as
   - [x] Markdown
-  - [x] Markdown(DataURI jpeg, png, webp\*)
+  - [x] Markdown(DataURI jpeg, png, webp[^1])
   - [x] HTML
-  - [x] HTML(DataURI jpeg, png, webp\*)
+  - [x] HTML(DataURI jpeg, png, webp[^1])
   - [x] DataURI(original format)
-  - [x] DataURI(jpeg, png, webp\*)
+  - [x] DataURI(jpeg, png, webp[^1])
   - [x] BBCode
 - [x] Copy browser native audio/video as HTML
 
-\* *WebP format is Chromium(Chrome, Opera, Vivaldi) only*
+[^1]: WebP format is Chromium(Chrome, Opera, Vivaldi) only
 
 ## Support Markdown flavors
 
@@ -59,5 +61,6 @@ Copy content from web powerful than ever before.
 Copy tab link and selection can be set as keyboard shortcuts.
 
 Chrome shortcuts page: `chrome://extensions/shortcuts`
+Edge shortcuts page: `edge://extensions/shortcuts`
 
 Unfortunately, I couldn't find the official shortcut key customization page in Firefox. Maybe users can use other extensions to implement shortcut key binding. Copycat will not provide related UI for the time being.
